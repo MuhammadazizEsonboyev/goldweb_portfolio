@@ -15,55 +15,356 @@ body {
 }
 
 
-/* ------------------- navbar start --------------------- */
 
-.list {
+.list_items {
     display: flex;
     gap: 30px;
-    padding-top: 30px;
+    margin-top: 27px;
 }
 
+.sarlavha1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
 
-.list_item {
+.text1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-top: 40px;
+}
+
+.list {
     font-weight: 500;
     font-size: 20px;
+    line-height: 29px;
     text-align: right;
     color: #000000;
 }
 
-/* ----------------------- header start ------------------------ */
-.text_person {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 44px;
-    color: #21243D;
-}
-.text-all {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 40px;
-    color: #21243D;
-}
-.button_person {
-    font-family: 'Heebo';
+.btn1 {
     font-weight: 500;
     font-size: 20px;
+    line-height: 29px;
     color: #FFFFFF;
-    padding: 5px 20px;
-    border: none;
     background: #FF6464;
-    border-radius: 2px;
-    margin-top: 30px;
+    border-radius: 6px;
+    border: none;
+    padding: 5px 20px;
+    box-shadow: 1px 1px 20px #FF6464;
+    margin-top: 38px;
 }
-.person_image{
+
+
+.img1 {
     width: 100%;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
-header{
-    padding-top: 100px;
+
+header {
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.soz {
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+}
+
+.soz2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #00A8CC;
+    align-items: center;
+}
+
+.soz_div {
+    display: flex;
+    gap: 892px;
+}
+
+.section1 {
+    background: #EDF7FA;
+    padding-top: 10px;
+    margin-top: 78px;
+    padding-bottom: 32px;
+}
+
+.oq_div {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px 0px 24px 20px;
+    margin-top: 5px;
+}
+
+
+.sarlavha2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #21243D;
+}
+
+
+.sanalar {
+    display: flex;
+    gap: 40px;
+    margin-top: 17px;
+    margin-bottom: 11px;
+}
+
+.sana {
+    font-weight: 400;
+    font-size: 18px;
+    color: #21243D;
+
+}
+
+.text2 {
+    font-weight: 400;
+    font-size: 17px;
+    color: #21243D;
+}
+
+.soz3 {
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+}
+
+.section2 {
+    margin-top: 15px;
+}
+
+.rasm1 {
+    width: 266px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px #3a3a3a;
+}
+
+.soz_div1 {
+    display: flex;
+    gap: 40px;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+
+.yil {
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #142850;
+    border-radius: 16px;
+    padding: 2px 8px;
+}
+
+.soz4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.sarlavha3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #21243D;
+}
+
+.text3 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #21243D;
+}
+
+.bir {
+    width: 1100px;
+    margin-top: 20px;
+    margin-bottom: 31px;
+}
+
+.ikki {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.uch {
+    margin-top: 30px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-left: 35px;
+    color: #142850;
+}
+
+.text_oxirgi {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #21243D;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+
+footer {
+    margin-top: 84px;
+    padding: 51px;
+    margin-left: 150px;
+}
+
+
+/* --------------- responsive start --------------- */
+
+
+@media (max-width: 575px) {
+    .sarlavha1 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+        color: #21243D;
+        line-height: 40px;
+        padding-top: 30px;
+    }
+
+    .text1 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #21243D;
+
+    }
+
+    .btn1 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+
+    .list_items {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 27px;
+        padding-left: 0;
+    }
+
+
+    header {
+        margin-top: 55px;
+    }
+
+    .button-box {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .soz {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 60px;
+        color: #21243D;
+    }
+
+
+    .text2 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #21243D;
+    }
+
+    .sarlavha2 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        color: #21243D;
+    }
+
+    .sana {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #21243D;
+    }
+
+    .rasm1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sarlavha3 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #21243D;
+        padding-top: 17px;
+    }
+
+    .yil {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 1px 12px;
+    }
+
+    .soz4 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #8695A4;
+    }
+
+    .text3 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #8695A4;
+    }
+    footer {
+        margin-top: 84px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .text_oxirgi {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #21243D;
+        text-align: center;
+        margin-left: 28px;
+        margin-top: 26px;
+    }
 }
