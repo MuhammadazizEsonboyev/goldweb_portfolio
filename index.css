@@ -367,4 +367,9 @@ footer {
         margin-left: 28px;
         margin-top: 26px;
     }
+    .soz_div {
+        display: flex;
+        gap: 892px;
+        justify-content: center;
+    }
 }
